@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>3 Tab Bar App</title>
+        <link rel="stylesheet" href="css/onsenui.css">
+        <link rel="stylesheet" href="css/onsen-css-components.min.css">
+    </head>
+    <body>
+        <ons-page>
+            <ons-toolbar>
+                <div class="center">WhatsApp</div>
+            </ons-toolbar>
+            <ons-tabbar position="top">
+                <ons-tab page="tab1.html" label="Chats" icon="md-account" active></ons-tab>
+                <ons-tab page="tab2.html" label="Status" icon="md-settings"></ons-tab>
+                <ons-tab page="tab3.html" label="Calls" icon="md-info"></ons-tab>
+            </ons-tabbar>
+        </ons-page>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/onsenui.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
